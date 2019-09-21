@@ -1,0 +1,83 @@
+.mainDiv{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	min-height: 550px;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 8px #888888;
+}
+
+.lm{
+	margin-left: 5%;
+}
+
+.bigverticalseparation {
+	margin-top: 40px;
+}
+
+.smallverticalseparation {
+	margin-top: 20px;
+}
+
+.mailinglist{
+	display: inline-block;
+	margin-top: 5%;
+	font-size: 12Px;
+	width: 20%;
+	height: 20px;
+}
+
+.listname{
+	margin-top: 2%;
+	font-size: 26Px;
+	width: 20%;
+	height: 20px;
+}
+
+.labelcolor{
+	color: #7F7F7F;
+}
+
+.namecolor{
+	color: #4C4C4C;
+}
+
+.verifiednumbers{
+	overflow: scroll;
+	width: 80%;
+	height: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #B2B2B2;
+	box-shadow: all;
+
+}
+
+.floatleft{
+	float: left;
+}
+
+.filteroption{
+	width: 450px;
+	text-align: right;
+}
+
+.showRecepients{
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    align-self: center;
+}
+
+select{
+	width: 50%;
+}
+
+td{
+	color: #666666;
+}

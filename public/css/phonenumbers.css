@@ -1,0 +1,102 @@
+.phoneNumbersMainDiv{
+	width: 100%;
+	height: 420px;
+	overflow: scroll;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.phoneNumbersTable{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.deleteButton{
+	width: 100%;
+}
+
+.updateButton{
+	width: 100%;
+}
+
+.tableInput{
+	width: 95%;
+	overflow-wrap: break-word;
+	text-overflow: clip;
+}
+
+.firstLinkDiv{
+	margin-left: 5%;
+	text-align: center;
+	float: left;
+}
+
+.previousLinkDiv{
+	text-align: center;
+	display: inline-block;
+}
+
+.nextLinkDiv{
+	text-align: center;
+	display: inline-block;
+}
+
+.lastLinkDiv{
+	float: right;
+	text-align: center;
+}
+
+.paginationLinkDiv{
+	width: 23%;
+}
+
+.addNewButtonDiv{
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+.addNewButton{
+    border-radius: 10px;
+    height: 40px;
+	width: 200px;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.newPhoneDialog{
+	width: 100%;
+}
+
+.newPhoneInput{
+	margin-top: 5%;
+}
+
+.groupPropagation{
+    border-radius: 10px;
+    height: 40px;
+	width: 200px;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+label{
+	color: #707070;
+	font-size: 12px;
+}
+
+input, select {
+	color:#4E514D;
+	font-size: 14px;
+}

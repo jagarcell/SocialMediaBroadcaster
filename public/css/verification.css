@@ -1,0 +1,128 @@
+.numbersToVerifyDiv{
+	width: 50%;
+	height: 800px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 5%;
+	overflow: scroll;
+}
+
+.phoneListLabel{
+	width: 90%;
+	text-align: center;
+}
+
+.numbersToVerifyTable{
+	width: 90%;
+	float: left;
+}
+
+.phoneColumn{
+	width: 50%;
+}
+
+.carrierColumn{
+	width: 45%;
+	text-align: center;
+}
+
+.statusColumn{
+	width:45%;
+	text-align: center;
+}
+
+.phoneVerifiedColumn{
+	width: 20%;
+}
+
+.carrierVerifiedColumn{
+	width: 30%;
+	text-align: center;
+}
+
+.groupVerifiedColumn{
+	width: 30%;
+	text-align: center;
+}
+
+.gatewayVerifiedColumn{
+	width: 20%;
+}
+
+.groupInput{
+	width: 95%;
+}
+.gatewayInput{
+	width: 95%;
+}
+
+.verifyPendingNumbersButton{
+	text-align: center;
+	margin-left: 25%;
+	margin-top: 10px;
+	width: 45%;
+	display: inline-block;
+}
+
+.populateWithSecuenceButton{
+	text-align: center;
+	margin-left: 10%;
+	margin-top: 10px;
+	width: 75%;
+	display: inline-block;
+}
+
+.statusCell{
+	color: rgb(0, 0, 255);
+}
+
+.checkButtonColumn{
+	width: 5%;
+	text-align: center;
+}
+
+.phoneInput{
+	width: 95%;
+}
+
+.addButton{
+	width: 99%;
+	float: left;
+}
+
+.verifiedNumbersDiv{
+	width: 40%;
+	float: right;
+	margin-top: 30px;
+	margin-left: 2%;
+}
+
+.verifiedNumbersTable{
+	width: 90%;
+	float: left;
+}
+
+.saveResultsButton{
+	width: 100%;
+}
+
+.changeGroupButtonDiv{
+	text-align: center;
+}
+
+.changeGroupButton{
+	text-align: center;
+	margin-top: 5%;
+}
+
+.groupNameToChange{
+	width: 95%;
+}
+
+.changeGroupAcceptButton{
+	margin-top: 2%;
+}
+
+table, th, td{
+	border: 1px solid black;
+}

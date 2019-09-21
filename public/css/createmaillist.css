@@ -1,0 +1,69 @@
+.addMailingListLabel{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 200px;
+	font-size: 26px;
+	color: #5E645E;
+}
+
+.addMailingListResultMessage{
+	margin-left: 10%;
+	width: 100%;
+}
+
+.newListFieldLabel{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 150px;
+	font-size: 14px;
+	color: #5E645E;
+	text-align: right;
+	float: left;
+}
+
+.newListField{
+	display: inline-block;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 150px;
+	text-align: left;
+}
+
+.newListFieldInput{
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	color: #5E645E;
+}
+
+.arrobaLabel{
+	width: 25px;
+	display: inline-block;
+	font-size: 15px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.newListDomainField{
+	display: inline-block;
+	margin-top: 5%;
+	width: 150px;
+	text-alig5n: left;
+}
+
+select{
+	width: 100%;
+}
+
+.addMailingListButtonClass{
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    float: left;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,45 @@
+.carriersMainDiv
+{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 80%;
+	height: 600px;
+	overflow: scroll;
+}
+
+.carriersTable{
+	width: 100%;
+}
+
+.carrierInput{
+	width: 99%;
+	text-transform: uppercase;
+}
+
+.gatewayInput{
+	width: 99%;
+	text-transform: lowercase;
+}
+
+.aliasInput{
+	width: 99%;
+	text-transform: uppercase;
+}
+
+.deleteButtonColumn{
+	width: 10%;
+	text-align: center;
+}
+
+.updateButtonColumn{
+	width: 10%;
+	text-align: center;
+}
+
+.addCarrierButton{
+	width: 100%;
+}
+
+table, th, td{
+	border: 1px solid black;
+}

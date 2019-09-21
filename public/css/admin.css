@@ -1,0 +1,35 @@
+.mainDiv{
+	width: 80%; 
+	align-content: center; 
+	margin-left: 12%;
+}
+
+.carriersTable{
+	width: 90%;
+	float: left;
+}
+
+.dataColumn{
+	width: 30%;
+}
+
+.buttonColumn{
+ 	width:1%;
+}
+
+.addCarrierButton{
+	float: right;
+}
+
+.buttonRight{
+	width: 100%;
+}
+
+.inputNoBorder{
+	border: none;
+	width: 100%;
+}
+
+table, th, td{
+	border: 1px solid black;
+}

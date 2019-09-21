@@ -1,0 +1,60 @@
+.topSeparation{
+	margin-top: 10px;
+}
+
+.leftTestDiv{
+	width: 200px;
+	height: 40px;
+	margin-left: 40px;
+}
+
+table#holder {
+    border: 5px dashed #CCC;
+    width:400px;
+    font-family:Verdana;
+}
+table#holder tr:first-child {
+    height:50px;
+    text-align:center;
+}
+table#holder tr:last-child {
+   height:300px;
+   line-height: 50px;
+}
+table#holder li img {
+    height: 30px;
+}
+
+.positionRelative{
+  position: relative;
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+.positionAbsolute{
+  position: absolute;
+}
+
+.quickBooksDiv{
+  margin-top: 10px;
+  width: 100%;
+}
+
+.flushButton{
+  margin-top: 10px;
+}
+.companyButton{
+  margin-top: 40px;
+}
+
+.inventoryButton{
+  margin-top: 40px;
+}
+
+.dataTableStyle{
+  width: 40%;
+  margin: auto;
+  border: 1px solid black;
+}

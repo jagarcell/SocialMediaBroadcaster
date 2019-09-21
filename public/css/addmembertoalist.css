@@ -1,0 +1,109 @@
+.mainDiv{
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	height: 520px;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 8px #888888;
+	overflow: scroll;
+}
+
+.mailingListLabel{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 200px;
+	font-size: 20px;
+}
+
+.mailingList{
+	margin-left: 10%;
+	margin-top: 0%;
+	width: 200px;
+	font-size: 36px;
+}
+
+.addMailingListResultMessage{
+	margin-left: 10%;
+	margin-top: 5%;
+	width: 100%;
+	color: blue;
+}
+
+.details{
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.fieldLabel{
+	margin-left: 5%;
+	width: 150px;
+	font-size: 14px;
+	text-align: right;
+	float: left;
+	color: #8C928B;
+}
+
+.memberField{
+	display: inline-block;
+	margin-left: 5%;
+	width: 150px;
+	text-align: left;
+	color:#8C928B;
+}
+
+.memberFieldInput{
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	color: #5E645E;
+}
+
+select{
+	color:#5E645E;
+}
+
+.recepientActionButtonClass{
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    float: left;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.mailingListFieldDiv{
+	margin-top: 1%;
+	height: 40px;
+	align-items: left;
+}
+
+.membersList{
+	float: left;
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+.addRecepientDiv{
+	width: 100%;
+	float: left;
+	margin-left: 10%;
+}
+
+th, td {
+	color: #666666;
+}
+
+th{
+	font-size: 14px;
+}
+
+td{
+	font-size: 12px;
+}

@@ -1,0 +1,138 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+/*    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+*/    margin: 0;
+}
+
+a {
+    color: rgb(0, 128, 255);
+    text-decoration: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+
+}
+
+
+.links {
+    color: #636b6f;
+/*    font-weight: 600;
+*/    padding: 0 25px;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.mailingListMainDiv{
+/*    position: fixed; */
+    text-align: center; 
+    width: 100%; 
+    margin-top: 50px;
+    height: 300px;
+    margin-top: 5%;
+}
+
+.scrollableDiv{
+    overflow-y: scroll;
+}
+
+.mailinglistsTable{
+    width: 100%;
+    height: 200px;
+}
+
+.newListNameInput{
+    width: 95%;
+}
+
+.newListAddressInput{
+    width: 95%;
+}
+
+.newListCreatedAtInput{
+    width: 95%;
+}
+
+.newListDescriptionInput{
+    width: 95%;
+}
+
+.listButton{
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    float: left;
+    background-image: linear-gradient(gray, black);
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.createListButton{
+}
+
+.deleteListButton{
+}
+
+.masterCheck{
+    margin-left: 5px;
+}
+
+.deleteCheckBox{
+    margin-left: 5px;
+}
+
+table thead tr {
+    display: block;
+}
+table th, table td {
+    width: 250px;
+}
+table tbody {
+    display: block;
+    height: 500px;
+    overflow: auto;
+}
+table th {
+    text-align: center;
+    font-size: 12px;
+}
+table td {
+    text-align: center;
+    font-size: 14px;
+/*    white-space: pre; */
+}

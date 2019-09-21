@@ -1,0 +1,237 @@
+/*
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+a {
+    color: rgb(0, 128, 255);
+    text-decoration: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+
+.links {
+    color: #636b6f;
+    font-weight: 600;
+    padding: 0 25px;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.mainDiv{
+/*    position: fixed; */
+    text-align: center; 
+    width: 100%; 
+    margin-top: 500px;
+}
+
+.messageDiv{
+    width: 90%;
+    height: 80%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+.dropDiv{
+    clear: all;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.phoneNumbersButton{
+    width: 100%;
+}
+
+.carriersButton{
+    width: 100%;
+}
+
+.phoneNumbersVerificationButton{
+    width: 100%;
+}
+
+.labelTo{
+    margin-top: 2px;
+    width: 100%; 
+/*    position: relative; */
+    float: left; 
+    text-align: left;
+    height: 20px;
+    display: inline-block;
+}
+
+.inputTo{
+    width: 80%; 
+    float: left; 
+/*    position: relative; */
+    margin-left: 0;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.buttonVerify{
+/*    position: static; */
+    width: 15%;
+    float: right;
+}
+
+.emailButtonDiv{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 40%;
+    float: left;
+}
+
+.emailButton{
+    width: 100%;
+}
+
+.messageComponent{
+    float: left;
+    width: 99%; 
+    background-color: #FFFFFF;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.messageToListComponent{
+    height: 150px;
+}
+
+.messageTextComponent{
+    height: 100px;
+}
+
+.messageHtmlComponent{
+    height: 250px;
+}
+
+.labelMessage{
+    font: bold; 
+    width: 75%; 
+/*    position: relative; */
+    margin-top: 20px; 
+    float: left; 
+    text-align: left; 
+    height: 20px;
+}
+
+.messageText{
+    float:left; 
+/*    position: relative; */
+    margin-top: 2px; 
+    width: 80%; 
+    height: 400px;
+}
+
+.messageSendButton{
+/*    position: relative; */
+    float: left;
+    margin-left: 20%;
+    margin-top: 2%; 
+    margin-right: 24%; 
+    top:10px; 
+    width: 40%;
+}
+
+.uploadDiv{
+    margin-top: 5%;
+    width: 100%;
+    float: left;
+}
+
+.uploadedImage{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    height: 20%;
+}
+
+.sendButtonDiv{
+    margin-left: 30%;
+}
+
+label{
+    margin-top: 10px;
+    width: 100%; 
+/*    position: relative; */
+    float: left; 
+    text-align: left;
+    height: 20px;
+    display: inline-block;
+}
+
+.imagesDiv{
+    width: 80%;
+    float: left;
+}
+
+.uploadedImage{
+    width: 100px; 
+    float: left; 
+    display: inline-block;
+}
+
+.imageText{
+    width: 100%; 
+    float: left;
+}
+
+.imagesTable{
+    margin-left: 0%; 
+    width: 100%;
+}
+
+.imagesLayoutButtonDiv{
+    width: 15%;
+    float: right;
+    margin-right: 15%;
+}
+
+.leftTestDiv{
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+}

@@ -1,0 +1,29 @@
+.labelMessage{
+    text-decoration-color: black; 
+    font: bold; 
+    color: black; 
+    width: 75%; 
+/*    position: relative; */
+    margin-top: 20px; 
+    float: left; 
+    text-align: left; 
+    height: 20px;
+}
+
+.messageText{
+    float:left; 
+/*    position: relative; */
+    margin-top: 2px; 
+    width: 80%; 
+    height: 400px;
+}
+
+.messageSendButton{
+/*    position: relative; */
+    float: left;
+    margin-left: 20%;
+    margin-top: 2%; 
+    margin-right: 24%; 
+    top:10px; 
+    width: 40%;
+}
