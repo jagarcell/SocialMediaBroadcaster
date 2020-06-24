@@ -38,4 +38,13 @@ class phoneNumbersController extends Controller
         $result = (new verifiednumbers())->addPhoneRegister($request);
         return $result;
     }
+
+    public function deletePhoneRegister(Request $request)
+    {
+        # code...
+        # PARAMETERS:
+        # phonenumber
+        $result = (new verifiednumbers())->deletePhoneRegister($request);
+        return $result;
+    }
 }

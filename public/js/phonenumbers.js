@@ -60,7 +60,23 @@ function pageUnload() {
 }
 function deleteButtonClick() {
 	// body...
-	alert("deleteButtonClick")
+	var deleteCheckBoxes = $(".deleteCheckbox")
+	for (var i = 0; i < deleteCheckBoxes.length; i++) {
+		if(deleteCheckBoxes[i].checked){
+			var id = deleteCheckBoxes[i].id
+			$.get('/deletePhoneRegister', {
+				id: id,
+			}, function deletePhoneRegisterCallBack(data, status) {
+				// body...
+				if(data.status == 'OK'){
+					$("#phoneNumberInput_" + data.id).parent().parent().remove()
+				}
+				else{
+					alert("ERROR DELETING PHONE NUMBER")
+				}
+			})
+		}
+	}
 }
 
 function updateButtonClick() {

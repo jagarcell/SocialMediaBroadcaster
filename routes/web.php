@@ -56,15 +56,6 @@ Route::get('/welcome', function(Request $request){
     return view('welcome', ['to' => $request['to'], 'subject' => $request['subject'], 'message' => $request['message'], 'path2' => $request['path2'], 'maillists' => $request['maillists'], 'maillistCheck' => $request['maillistCheck'], 'domains' => $request['domains']]);
 });
 
-/*
-Route::post('/{to}/{message}', function ($to, $message){
-	$email = new email();
-	$domains = $email->getDomains();
-	$maillists = $email->getMailLists();
-    return view('welcome', ['to' => $to, 'message' => $message, 'path' => $path,  'maillists' => $maillists, 'domains' => $domains]);
-});
-*/
-
 Route::get('/sendText', 'textMsgController@send');
 
 Route::get('/admin', 'adminController@show');
@@ -114,6 +105,8 @@ Route::get('/phonenumbers', 'phoneNumbersController@show');
 Route::get('/updatePhoneRegister', 'phoneNumbersController@updatePhoneRegister');
 
 Route::get('/addPhoneRegister', 'phoneNumbersController@addPhoneRegister');
+
+Route::get('/deletePhoneRegister', 'phoneNumbersController@deletePhoneRegister');
 
 Route::get('/email', 'emailController@show');
 

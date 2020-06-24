@@ -202,6 +202,21 @@ class verifiednumbers extends Model
         }
     }
 
+    public function deletePhoneRegister(Request $request)
+    {
+        # code...
+        # PARAMETERS:
+        # id
+        $id = $request['id'];
+        try {
+            $this->where('id', $id)->delete();
+        } catch (\Exception $e) {
+            return (['status' => 'ERROR']);        
+        }
+
+        return ['status' => 'OK', 'id' => $id];
+    }
+
     public function getRecepients(Request $request)
     {
         # code...

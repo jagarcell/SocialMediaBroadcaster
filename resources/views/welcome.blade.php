@@ -130,10 +130,6 @@
             <form action="/fileUpload" method="post" enctype="multipart/form-data" class="uploadDiv" id="imagesDropZone">
                  <div class="uploadDiv">
                     {{ csrf_field() }}
-                    <!--center>
-                        Select image to upload: <input type="file" name="file[]" id="fileToUpload" multiple="">
-                        <input type="submit" name="Upload" value="Upload"">
-                    </center-->
                     @foreach($maillists as $key => $maillist)
                         <input type="hidden" name="maillistCheck[]" class="maillistCheck" id="check_{{$key}}" value="{{$maillistCheck[$key]}}">
                         <input type="hidden" name="maillistAddress[]" value="{{$maillist->address}}">
@@ -142,20 +138,6 @@
                     <input type="hidden" name="message" id="messageTextUpload" value="{{$message}}">
                 </div>
             </form>
-
-                    
-            <!--form action="fileUpload" 
-                class="uploadDiv" method="post" enctype="multipart/form-data" 
-                id="imagesDropZone">
-                {{ csrf_field() }}
-                <input type="file" name="file[]">
-                <input type="submit" value="UPLOAD">
-            </form>
-            <div style="width: 100%; text-align: center;">
-            <video width="120px" height="120px" controls="">
-                <source src="public/images/videohtml.mp4" type="">
-            </video>
-            </div-->
        </div>
        @endsection
     </body>
